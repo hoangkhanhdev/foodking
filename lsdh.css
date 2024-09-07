@@ -1,0 +1,96 @@
+/* trangsanpham */
+.table{
+    width: 100%;
+  }
+  .table_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: aliceblue;
+  }
+  .table_header p{
+  color: #000;
+  }
+  .table_header div{
+    display: flex;
+  }
+  button{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  td button:nth-child(1){
+    background-color: #44bee7;
+  }
+  td button:nth-child(2){
+    background-color: rgb(231, 75, 75);
+  }
+  .add_new{
+    padding: 10px 20px;
+    color: rgb(241, 237, 237);
+    background-color: #0298cf;
+  }
+  input{
+    padding: 10px 20px;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid  #0298cf;
+    border-radius: 6px;
+    color:  #0298cf;
+  }
+  .table_section{
+    height: 650px;
+    overflow: auto;
+  }
+  table{
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+  }
+  thead th{
+  
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    color: rgb(35, 37, 37);
+  font-size: 15px;
+  }
+  th,td{
+   width: 30px;
+    border-bottom: 1px solid rgb(192, 187, 187);
+    padding: 10px 10px;
+    word-break: break-all;
+    text-align: center;
+  }
+  td img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid white;
+  }
+  tr:hover td{
+    color: #0298cf;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+ 
+  ::placeholder{
+    color:  #0298cf;
+  }
+  ::-webkit-scrollbar{
+    height: 5px;
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track{
+box-shadow: inset 0 0 6px rgba (0,0,0,0.3);
+  }
+  ::-webkit-scrollbar-thumb{
+    box-shadow: inset 0 0 6px rgba (0,0,0,0.3);
+  }
+  
